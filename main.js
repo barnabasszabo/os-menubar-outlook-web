@@ -3,7 +3,7 @@ const { menubar } = require('menubar');
 
 const mb = menubar({
 	index: `https://outlook.office.com/calendar/view/workweek`,
-    browserWindow: { height: 1024, width: 800 }
+    browserWindow: { height: 1024, width: 1500 }
 });
 
 mb.app.dock.hide();
